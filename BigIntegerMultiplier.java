@@ -23,9 +23,9 @@ public class BigIntegerMultiplier {
 	    BigIntegerMultiplier multiplication = new BigIntegerMultiplier();
 		
 		multiplication.getNumbers();
-		
+		//Add proper comments
 		String finalResult = multiplication.generateResult();
-		
+		//here and there
 		System.out.println("THE RESULT OF THE LARGE MULTIPLICATION OF TWO DIGITS IS  >>>>>>>>>" +finalResult);
 		
 		
