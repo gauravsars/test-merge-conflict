@@ -26,6 +26,8 @@ public class BigIntegerMultiplier {
 		
 		String finalResult = multiplication.generateResult();
 		
+		//surely i do have logic
+		
 		System.out.println("THE RESULT OF THE LARGE MULTIPLICATION OF TWO DIGITS IS  >>>>>>>>>" +finalResult);
 		
 		
