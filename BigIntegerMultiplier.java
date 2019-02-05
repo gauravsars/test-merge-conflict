@@ -20,6 +20,7 @@ public class BigIntegerMultiplier {
 
 	public static void main(String[] args) {
 		
+		
 	    BigIntegerMultiplier multiplication = new BigIntegerMultiplier();
 		
 		multiplication.getNumbers();
@@ -27,6 +28,7 @@ public class BigIntegerMultiplier {
 		String finalResult = multiplication.generateResult();
 		
 		//surely i do have logic
+		//indian army troopers regiorous training.
 		
 		System.out.println("THE RESULT OF THE LARGE MULTIPLICATION OF TWO DIGITS IS  >>>>>>>>>" +finalResult);
 		
