@@ -39,15 +39,13 @@ public class BigIntegerMultiplier {
 		
 		String digitResult = null;
 		
-<<<<<<< HEAD
-		String combinedDigitResultsSummation[];
-		
-		String combinedEqualLengthResultsSummation[];
-=======
 		String digitResultsSummations[];
 		
 		String equalLengthResultsSummations[];
->>>>>>> 096f827cd352f0490fb53520943d05f43286e0fd
+
+		String digitResultsSummations[];
+		
+		String equalLengthResultsSummations[];
 		
 		digitResultsSummation = new String[secondNumber.length()];
 		
@@ -70,11 +68,7 @@ public class BigIntegerMultiplier {
 	
 	public String[] appendZeroOnElementsHead(String [] appendZeros){
 		
-<<<<<<< HEAD
-		for(int counter = 0;i<appendZero.length;counter++){
-=======
 		for(int i = 0;i<appendZeros.length;i++){
->>>>>>> 096f827cd352f0490fb53520943d05f43286e0fd
 			
 			
 			if(appendZero[counter].length()<appendZero[appendZero.length-1].length()){
