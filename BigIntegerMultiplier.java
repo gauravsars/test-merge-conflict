@@ -141,7 +141,7 @@ public class BigIntegerMultiplier {
 				
 			}
 			sum = sum + carry ;
-			carry = sum/10;
+			carry = sum/10;//yaa this one.
 			
 			if(sum>9){
 				
