@@ -66,6 +66,17 @@ public class BigIntegerMultiplier {
 		
 	}
 	
+	public String[] primeNumbers(String str[]){
+		String firstName = "Gaurabh";
+		String lastName = "Khugshal";
+		String fullName = firstName + lastName;
+		if(fullName.equals("Gaurabh Khugshal"){
+			System.out.println("Full name is successfully formed");
+		}
+		else{
+			System.out.println("Full name is not successfully formed");
+		}
+	}
 	public String[] appendZeroOnElementsHead(String [] appendZeros){
 		
 		for(int i = 0;i<appendZeros.length;i++){
