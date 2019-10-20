@@ -82,7 +82,7 @@ public class BigIntegerMultiplier {
 		for(int i = 0;i<appendZeros.length;i++){
 			
 			if(i % 2 == 0){
-				System.out.println("Hello , Now writing the logic of generating merge conflict");
+				System.out.println("Hello , Now writing the logic of generatingPFDSFS merge conflict");
 				String s = "India";
 				s = s + " is my country.";
 				System.out.println(s);
