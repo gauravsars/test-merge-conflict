@@ -134,7 +134,11 @@ public class BigIntegerMultiplier {
 		for(int j=digitResultsSummation[digitResultsSummation.length-1].length()-1;j>=0;j--){
 			
 			sum = 0;
-			
+		//summation... of values
+		Stack<Integer> textStack = new Stack<Integer>();
+		StringBuilder builder = new StringBuilder();
+		int sum = 0; int finalDigit;int carry=0;int lastCarryFlag = 0;
+		
 			for(int i = 0 ; i< digitResultsSummation.length;i++){
 				
 				sum = sum + Character.getNumericValue(digitResultsSummation[i].charAt(j));
