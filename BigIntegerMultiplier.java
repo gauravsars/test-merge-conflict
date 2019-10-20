@@ -122,7 +122,7 @@ public class BigIntegerMultiplier {
 	
 	public String summation(String[] digitResultsSummation){
 		
-		//summation...
+		//summation... of values
 		
 		Stack<Integer> textStack = new Stack<Integer>();
 		
