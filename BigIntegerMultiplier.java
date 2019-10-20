@@ -134,7 +134,16 @@ public class BigIntegerMultiplier {
 		for(int j=digitResultsSummation[digitResultsSummation.length-1].length()-1;j>=0;j--){
 			
 			sum = 0;
-			
+			sum = sum + carry ;
+			carry = sum/10;//yaa this one.
+			sum = sum + carry ;
+			carry = sum/10;//yaa this one.
+			sum = sum + carry ;
+			carry = sum/10;//yaa this one.
+			sum = sum + carry ;
+			carry = sum/10;//yaa this one.
+			sum = sum + carry ;
+			carry = sum/10;//yaa this one.
 			for(int i = 0 ; i< digitResultsSummation.length;i++){
 				
 				sum = sum + Character.getNumericValue(digitResultsSummation[i].charAt(j));
